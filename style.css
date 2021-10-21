@@ -1,27 +1,47 @@
-style.css
 
+
+body {
+	height: px;
+	position: relative;
+	font-family: sans-serif;
+	background-color: #FFB473;
+	}
 h1 {
-	color: #AE1C28;
+	postition: absolute;
+	height: 300px;
+	top: 20px;
+	color: #FF1416;
+	font-size: 90px;
 }
 
-.topnavmultipages {
-	background-color: #AE1C28;
-	overflow: hidden;
+
+.topnav {
+  font-size:  20px;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color:red ;
 }
-.topnav a {
+
+.multipages {
   float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: red;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
+.multipages a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.multipages a:hover {
+  background-color: red;
+}
+.multipages a:hover {
+  background-color: #FFB473;
+}
+
+}
