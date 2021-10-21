@@ -1,5 +1,9 @@
 style.css
 
+h1 {
+	color: #AE1C28;
+}
+
 .topnavmultipages {
 	background-color: #AE1C28;
 	overflow: hidden;
