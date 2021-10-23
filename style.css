@@ -1,26 +1,29 @@
 
 
+h1 {
+	text-align: center;
+	color: #FF1416;
+	font-size: 90px;
+	postion: relative;
+	padding-top: 100px;
+	
+}
 body {
-	height: px;
 	position: relative;
 	font-family: sans-serif;
 	background-color: #FFB473;
 	}
-h1 {
-	postition: absolute;
-	height: 300px;
-	top: 20px;
-	color: #FF1416;
-	font-size: 90px;
-}
 
 
 .topnav {
-  font-size:  20px;
+  font-size: 20px;
   position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 1500;
   list-style-type: none;
-  margin: 0;
-  padding: 10;
+  margin: 0px 0px;
+  padding: 10px;
   overflow: hidden;
   background-color:red ;
 }
@@ -33,7 +36,7 @@ h1 {
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 20px 97px;
   text-decoration: none;
 }
 

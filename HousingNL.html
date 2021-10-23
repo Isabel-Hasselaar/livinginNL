@@ -3,6 +3,70 @@
 	<title>Living in NL Housing</title>
 	<link href="style.css" rel="stylesheet">
 	<style> 
+		.multipages {
+			font-family: sans-serif;
+		}
+	 	.containerhousing {
+	 		width: 1420px; height: 450px; border: 2px dotted red;
+	 	}
+	 	.housinginfo {
+	 		width: 333px; height: 300px; background-color: red; color: white; float: left;
+	 		border: 3px solid white ;
+	 		padding: 40px;
+	 		margin: 25px;
+	 	}
+	 	.links {
+	 		color: white;
+	 	}
+		.containerhousingimgs {
+			width: 1420px; height: 400px; 
+	
+	 	}
+	 	.houseimg {
+	 		width: 333px; height: 300px;  white; float: left;
+	 		padding: 40px;
+	 		padding-top: 0px;
+	 		margin: 25px;
+	 	}
+	 	img {
+	 		width: 333px; height: 300px;
+	 	}
+	 	.captions {
+	 		width: 1420px; height: 450px;
+	 	}
+	 	.captionsinfo {
+	 		width: 333px;  white; float: left;
+	 		padding: 40px;
+	 		margin: 25px;
+	 		font-family: monospace;
+	 		
+	 	}
+	 	#cap1 {
+	 		position: absolute;
+	 		top: 1000px; 	
+	 	}
+	 	#cap2 {
+	 		position: absolute;
+	 		top: 1000px;
+	 		right: 497px;
+
+	 	}
+	 	#cap3{
+	 		position: absolute;
+	 		top: 1000px;
+	 		right: 30px;
+	 	}
+
+	 	p {
+	 		font-family: monospace;
+	 	}
+	 	li {
+	 		font-family: monospace;
+	 	}
+	 	h1 {
+	 		text-align: center;
+	 	}
+
 	</style>
 </head>
 
@@ -16,16 +80,37 @@
 
 	
 <h1>Housing</h1>
-<p> If you're moving somewhere it's quite necessary to find a house or apartment where you can live, so in this page we'll give you some information and resources you can use. Houses and apartments in The Netherlands are quite small. Since everything is crowded together houses are often narrow and tall, so if you are used to and want to live in a huge spacious house then living in Holland may not be the best option for you unless you are willing to live further away from cities where houses are bigger, but not super big either. Gardens are also quite small and sometimes you don't even have one.</p>
-<h2>Housing Shortage</h2>
-<p>There is a bit of a housing shortage in The Netherlands which makes finding a place to live really difficult and expensice. It might take a long time before you find something. It could take months for expats to find a perfect place to live. Also, the closer you live to the big cities the more difficult and more expensive it will be.</p>
-<h2>Where To look</h2>
-<p>Here are some great resources that you can use to find out where to start looking for a place and how to best find a house as quickly as possible</p>
-<ul>
-	<li><a href="https://access-nl.org/housing-netherlands/finding-place-to-live/">Access NL for more information</a></li>
-	<li><a href="https://www.expatica.com/nl/housing/renting/renting-a-property-in-the-netherlands-102925/">Expatica for a lot of important information</a></li> 
-	<li><a href="https://www.funda.nl/">Funda NL to see whats available</a></li>
-</body>
+<div class="containerhousing">
+	<div class="housinginfo">
+		<h2>About Dutch Houses</h2>
+		<p> If you're moving somewhere it's quite necessary to find a house or apartment where you can live, so in this page we'll give you some information and resources you can use. Houses and apartments in The Netherlands are quite small. Since everything is crowded together houses are often narrow and tall, so if you are used to and want to live in a huge spacious house then living in Holland may not be the best option for you unless you are willing to live further away from cities where houses are bigger, but not super big either. Gardens are also quite small and sometimes you don't even have one.</p>
+	</div>
+	<div class="housinginfo">
+		<h2>Housing Shortage</h2>
+		<p>There is a bit of a housing shortage in The Netherlands which makes finding a place to live really difficult and expensice. It might take a long time before you find something. It could take months for expats to find a perfect place to live. Also, the closer you live to the big cities the more difficult and more expensive it will be.</p>
+	</div>
+	<div class="housinginfo">
+		<h2>Where To look</h2>
+		<p>Here are some great resources that you can use to find out where to start looking for a place and how to best find a house as quickly as possible:</p>
+		<ul>
+			<li><a class="links" href="https://access-nl.org/housing-netherlands/finding-place-to-live/">Access NL for more information</a></li>
+			<li><a class="links" href="https://www.expatica.com/nl/housing/renting/renting-a-property-in-the-netherlands-102925/">Expatica for a lot of important information</a></li> 
+			<li><a class="links" href="https://www.funda.nl/">Funda NL to see whats available</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="containerhousingimgs">
+	<div  class="houseimg"><img src="housesnl.jpg"></div>
+	<div  class="houseimg"><img src="narrowhouse.jpg"></div>
+	<div  class="houseimg"><img src="biggerhouses.jpg"></div>
+</div>
+<div class="captions">
+	<div class="captionsinfo" id="cap1"><p>This is what the typical house in cities like Amsterdam would look like. As you can see they are quite narrow but tall</p></div>
+	<div class="captionsinfo" id="cap2"><p>This is a picture of the inside of a house to show the narrowness of the structure</p></div>
+	<div class="captionsinfo" id="cap3"><p>If you live in smaller cities or the suburbs the houses are more big and spacious. They are less narrow and have gardens as well</p></div>
+</div>
+
 
 
 
