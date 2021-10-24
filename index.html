@@ -4,6 +4,9 @@
 	<title>Living in NL</title>
 	<link href="style.css" rel="stylesheet">
 	<style>
+	h2 {
+		font-family: cursive;
+	}
 	.banner { 
 		background-image: url(flag.jpg);
 		background-size: cover;
@@ -24,16 +27,11 @@
 	.intro {
 		font-family: serif;
 		font-size: 20px;
+		text-allign: center;
 	}
-	.jump {
-		font-family: serif;
-		width: 63%;
-		background-color: red;
-		color: white;
-		font-size: 20px;
-	}
+	
 	.internallink {
-		color: white;
+		color: black;
 	}
 	#group1 {
 		border: 5px solid red;
@@ -44,11 +42,75 @@
 	}
 	#map {
 		width:500px;
-		height: 340px;
+		height: 330px;
         float:right;
         padding-right: 20px;
+        border: 5px solid red;
+
 	}
-	
+	.gov {
+		float: right;
+		width: 40%;
+		height: 200px;
+		background-color: #38B7FF;
+		color: white;
+		font-family: serif;
+		padding-left: 15px;
+		margin-top: 20px;
+	}
+	.royalsimg {
+		float: right;
+		height: 200px;
+		margin-top: 20px;
+		margin-left: 20px;
+
+	}
+	.molenimg {
+		height: 200px;
+		margin-top: 20px;
+		width: 590px;
+	}
+	.econ {
+		text-allign: right;
+		background-color: #38B7FF;
+		color: white;
+		width: 40%;
+		height: 200px;
+		font-famil: serif;
+		padding-left: 20px;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+	.cowimg {
+		float: right;
+		height: 220px;
+		width: 57%;
+		margin-top: 20px;
+		
+	}
+	.prosandconscontainer {
+		width: 1420px; height: 450px; 
+	}
+	.prosandcons {
+		width: 40%; height: 200px; float: left;
+	 		border: 5px solid red ;
+	 		padding: 40px;
+	 		margin: 25px;
+	 		font-family: serif;
+	}
+	#TLDR {
+		text-align: center;
+		color: red;
+		font-size: 30px;
+	}
+	#sentence {
+		text-align: center;
+	}
+	.endimg {
+		width: 100%;
+		height: 500px;
+	}
+
 
 	</style>
 </head>
@@ -76,7 +138,7 @@
 </div>
 
 	<p class="jump">Use the following internal links to jump to sections on this page:<br>
-		<a class="internallink" href="#basics">Basic Inforrmation,</a>
+		<a class="internallink" href="#basics">Basic Information,</a>
         <a class="internallink" href="#gov">Government,</a>
         <a class="internallink" href="#econ">Economic Facts,</a>
         <a class="internallink" href="#TLDR">Too Long; Didn't Read: Pros and Cons,</a>
@@ -88,16 +150,23 @@
 		<p>The Netherlands, also known as Holland, is a country in the North West of Europe known for tulips, windmills, cycling lifesyle, and other important landmarks. It is popular among expats because of its high standard of living and open minded people. The capital city is the canal filled Amsterdam where finance and tech industries welcom many international people. Rotterdam and The Hague also attract many workers from all around th world. There 17.28 people living in The Netherlands. The currency is Euro and the official language is Dutch, but everyone speaks English as well.</p>
 		
 	</div>
-
-	
+	<img class="royalsimg" src="royals.jpg">
+	<img class="molenimg" src="molen.jpg">
+	<div class="gov">
 	<h2 id="gov">Government </h2>
  		<p>The Netherlands is a constitutional monarchy which means that it does have a King and Queen, but there is a constitutionally organized governement and the head of state is the Prime Minister; Mark Rutte. King Willem Alexander van Oranje and Queen Maxima are the ceremonial leaders of Holland.</p>
+ 	</div>
+ 	<img class="cowimg" src="cow.jpg">
+ 	<div class="econ">
  	<h2 id="econ"> Economic Facts</h2>
  		<p> The Netherlands is a country in the EU so it does have the euro currency. The minimum wage is about 1,635.60 euros per month. The GDP or gross domestic product is 912.2 billion dollars and the GDP per capita or how much a person owns is about 52,304.06 dollars.</p>
+ 	</div>
 
 	<h2 id="TLDR"> Too long; Didn't Read</h2>
-		<p> If you don't have time to look into the specifics in each page then here are some pros and cons of living in NL.</p>
-	<h3 id="pros">Pros</h3>
+		<p id="sentence"> If you don't have time to look into the specifics in each page then here are some pros and cons of living in NL.</p>
+	<div class="prosandconscontainer">
+	<div class="prosandcons">
+		<h3 id="pros">Pros</h3>
 		<ol>
 			<li>Good education system</li>
 			<li>Good social security</li>
@@ -107,6 +176,8 @@
 			<li>Small and easy to get around with public transportation and cycling</li>
 			<li>Everyone speaks English</li>
 		</ol>
+	</div>
+	<div class="prosandcons">
 	<h3 id="cons">Cons</h3>
 		<ol>
 			<li>High Taxes</li>
@@ -114,6 +185,8 @@
  			<li>Housing Shortage and High Cost of Living</li>
  			<li>Stores Close Early</li>
  		</ol>
+ 	</div>
+ 	<img class="endimg"src="home.jpg">
 
 	</body>
 	</html>
