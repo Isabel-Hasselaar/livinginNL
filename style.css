@@ -40,9 +40,7 @@ body {
   text-decoration: none;
 }
 
-.multipages a:hover {
-  background-color: red;
-}
+
 .multipages a:hover {
   background-color: #FFB473;
 }
